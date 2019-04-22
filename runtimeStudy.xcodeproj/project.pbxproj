@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83108538223F401B0006747A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 83108537223F401B0006747A /* Person.m */; };
 		8346725E2238E66A0069CD78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8346725D2238E66A0069CD78 /* AppDelegate.m */; };
 		834672612238E66A0069CD78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834672602238E66A0069CD78 /* ViewController.m */; };
 		834672642238E66A0069CD78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834672622238E66A0069CD78 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83108536223F401B0006747A /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		83108537223F401B0006747A /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		834672592238E66A0069CD78 /* runtimeStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runtimeStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8346725C2238E66A0069CD78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8346725D2238E66A0069CD78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				834672672238E66C0069CD78 /* LaunchScreen.storyboard */,
 				8346726A2238E66C0069CD78 /* Info.plist */,
 				8346726B2238E66C0069CD78 /* main.m */,
+				83108536223F401B0006747A /* Person.h */,
+				83108537223F401B0006747A /* Person.m */,
 			);
 			path = runtimeStudy;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 			files = (
 				834672612238E66A0069CD78 /* ViewController.m in Sources */,
 				8346726C2238E66C0069CD78 /* main.m in Sources */,
+				83108538223F401B0006747A /* Person.m in Sources */,
 				8346725E2238E66A0069CD78 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCKQYMTQH8;
 				INFOPLIST_FILE = runtimeStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCKQYMTQH8;
 				INFOPLIST_FILE = runtimeStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

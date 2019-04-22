@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import <objc/runtime.h>
+#import <objc/message.h>
+#import "Person.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //测试：Peson调用并未实现的类方法、实例方法，并没有崩溃
+//    Person *ps = [[Person alloc] init];
+//    [Person haveMeal:@"Apple"]; //打印：+[Person zs_haveMeal:]
+//    [ps singSong:@"纸短情长"];   //打印：-[Person zs_singSong:]
     return YES;
 }
 
